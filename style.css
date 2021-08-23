@@ -10,6 +10,23 @@
     font-family: 'Roboto';
 }
 
+#navbar{
+    width: 100%;
+    background-color: #000000;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li{
+    padding-left: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #fff;
+}
+
 .intro-section{
     display: flex;
     flex-direction: column;
