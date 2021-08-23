@@ -4,11 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* Navbar Styling */
 
 #navbar{
     width: 100%;
@@ -30,6 +29,10 @@
 #navbar ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+#navbar ul li a:hover{
+    color: #a17f1a;
 }
 
 .intro-section{
@@ -57,6 +60,8 @@
     font-size: 18px;
 }
 
+/* Project Section */ 
+
 .project-section{
     margin: 5% auto;
     display: flex;
@@ -65,13 +70,29 @@
 }
 
 .project-container{
-    padding: 5%;
+    padding: 3%;
     border: 1px solid #fff;
-    height: 300px;
+    height: auto;
     width: 20%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
     white-space: nowrap;
+    align-items: center;
+}
+
+.project-container h3{
+    padding: 5px;
+    color:#a17f1a
+}
+
+.project-container h4{
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.project-container ul li{
+    list-style: none;
+    padding-bottom: 10px;
 }
 
 /* Styling the footer */
@@ -122,4 +143,12 @@
     color: #fff;
     padding-left: 1%;
     font-size: 13px;
+}
+
+
+/* Utilities */
+.tech-outline{
+    color: #a17f1a;
+    font-weight: bold;
+    font-size: 20px;
 }
