@@ -7,7 +7,7 @@
 }
 
 .body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar{
@@ -24,6 +24,11 @@
     padding-left: 15px;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: #fff;
+}
+
+#navbar ul li a{
+    text-decoration: none;
     color: #fff;
 }
 
@@ -50,4 +55,71 @@
     text-align: center;
     width: 50%;
     font-size: 18px;
+}
+
+.project-section{
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project-container{
+    padding: 5%;
+    border: 1px solid #fff;
+    height: 300px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Styling the footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    margin-top: 200px;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-media-banner{
+    display: flex;
+    width: auto;
+}
+
+.footer-social-media-banner h5{
+    color: #fff;
+    white-space: nowrap;
+}
+
+.footer-social-media-banner a{
+     padding-left: 15%;
+     color: #fff;
+}
+
+.footer-social-media-banner a:hover{
+    color: #a17f1a;
+}
+
+.footer h2{
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.footer h4{
+    color: #fff;
+    padding-left: 1%;
+    font-size: 13px;
 }
