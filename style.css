@@ -11,7 +11,7 @@
 
 #navbar{
     width: 100%;
-    background-color: #000000;
+    background-color: #242333;
 }
 
 #navbar ul{
@@ -32,7 +32,7 @@
 }
 
 #navbar ul li a:hover{
-    color: #a17f1a;
+    color: #01B0D3;
 }
 
 .intro-section{
@@ -43,14 +43,45 @@
     margin: 0 auto;
 }
 
+.intro-features{
+    display: flex;
+    margin: 2% auto;
+}
+
 .intro-section h1{
     margin: 2% auto;
+    margin-top: 11%;
+    width: 5%;
+}
+
+#title span{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+#title span:nth-of-type(1){
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+
+#title span:nth-of-type(2){
+    margin-bottom: 10px;
+}
+
+#title span:nth-of-type(3){
+    margin-left: 15px;
+    margin-top: 25px;
 }
 
 .intro-section img{
     margin: 0 auto;
     border-radius: 50%;
     margin-bottom: 2%;
+}
+
+.intro-section img:hover{
+    width: 225px;
 }
 
 .intro-text{
@@ -63,10 +94,23 @@
 /* Project Section */ 
 
 .project-section{
-    margin: 5% auto;
+    margin: 3% auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
+}
+
+#project-section-title{
+    margin: 20px auto;
+    margin-bottom: 50px;
+    width: auto;
+    white-space: nowrap;
+}
+
+.project-wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .project-container{
@@ -80,9 +124,13 @@
     align-items: center;
 }
 
+.project-container img{
+    padding-top: 30px;
+}
+
 .project-container h3{
     padding: 5px;
-    color:#a17f1a
+    color: #01B0D3;
 }
 
 .project-container h4{
@@ -95,13 +143,22 @@
     padding-bottom: 10px;
 }
 
+.project-container:nth-of-type(2){
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.project-container:nth-of-type(2) img{
+    border-radius: 50%;
+}
+
 /* Styling the footer */
 
 .footer{
     display: flex;
     justify-content: space-around;
     height: auto;
-    background-color: #000000;
+    background-color: #242333;
     padding-top: 1%;
     padding-bottom: 1%;
 
@@ -129,7 +186,7 @@
 }
 
 .footer-social-media-banner a:hover{
-    color: #a17f1a;
+    color: #01B0D3;
 }
 
 .footer h2{
@@ -148,7 +205,7 @@
 
 /* Utilities */
 .tech-outline{
-    color: #a17f1a;
+    color: #01B0D3;
     font-weight: bold;
     font-size: 20px;
 }
