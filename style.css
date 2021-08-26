@@ -10,20 +10,28 @@
 /* Navbar Styling */
 
 #navbar{
+    display: flex;
     width: 100%;
     background-color: #242333;
+    height: 70px;
+    align-items: center;
+}
+
+#navbar h2{
+    color: #fff;
+    margin-left: 10%;
 }
 
 #navbar ul{
     display: flex;
     list-style: none;
+    margin-left: 60%;
 }
 
 #navbar ul li{
     padding-left: 15px;
-    padding-top: 1%;
-    padding-bottom: 1%;
     color: #fff;
+    white-space: nowrap;
 }
 
 #navbar ul li a{
@@ -33,6 +41,10 @@
 
 #navbar ul li a:hover{
     color: #01B0D3;
+}
+
+.hamburger{
+    display: none;
 }
 
 .intro-section{
@@ -65,23 +77,23 @@
     margin-bottom: 20px;
 }
 
+#title span:nth-of-type(1)::after{
+    
+}
+
 #title span:nth-of-type(2){
     margin-bottom: 10px;
 }
 
 #title span:nth-of-type(3){
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .intro-section img{
     margin: 0 auto;
     border-radius: 50%;
     margin-bottom: 2%;
-}
-
-.intro-section img:hover{
-    width: 225px;
 }
 
 .intro-text{
@@ -122,6 +134,7 @@
     text-align: center;
     white-space: nowrap;
     align-items: center;
+    min-width: 300px;
 }
 
 .project-container img{
@@ -130,6 +143,11 @@
 
 .project-container h3{
     padding: 5px;
+    color: #01B0D3;
+}
+
+.project-container h3 a{
+    text-decoration: none;
     color: #01B0D3;
 }
 
