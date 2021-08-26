@@ -1,0 +1,252 @@
+/* Mobile */
+@media(max-width: 500px){
+    #navbar{
+        justify-content: space-around;
+        height: auto;
+        text-align: center;
+    }
+
+    #navbar h2{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #navbar ul{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        height: auto;
+    }
+
+    /* Styling Hamburger */
+    .hamburger{
+        display: flex;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        font-size: 20px;
+        color: #fff;
+
+    }
+
+    /* On-click animation of hamburger */
+    .transition > svg {
+    outline: 0;
+    border:none;
+    -moz-transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+    transition: transform 0.3s linear;
+    }
+
+    .flip { /* rotate 90 deg */
+    outline: 0;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+
+    
+    /* Toggle Show Class to Show Drop Down Menu on Hamburger Click */
+    #nav-ul.show{
+        padding-top: 20px;
+        margin-top: 168px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        position: absolute;
+        background-color:#242333;
+    }
+
+    #navbar ul li{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navbar ul li a{
+        margin: 0;
+        padding: 0;
+    }
+
+    #title{
+        display: none;
+    }
+
+    .intro-text{
+        font-size: 14px;
+        min-width: 300px;
+    }
+
+    .intro-features img{
+        width: 170px;
+    }
+
+    .tech-outline{
+        font-size: 16px;
+    }
+
+    .project-wrapper{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .project-container{
+        margin-bottom: 5%;
+    }
+
+    .project-container:nth-of-type(2){
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-text h4{
+        margin: 10px;
+    }
+
+    .footer-social-media-banner{
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer-social-media-banner a{
+        padding-left: 10px;
+    }
+}
+
+
+/* Tablet */
+
+@media(min-width: 501px) and (max-width: 768px){
+    #navbar{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #navbar h2{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #navbar ul{
+        margin: 0;
+    }
+
+    #navbar ul li{
+        padding-left: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #navbar ul li a{
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+        padding-top :10px;
+    }
+
+    #title{
+        display: none;
+    }
+
+    .project-wrapper{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .project-container{
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    .project-container:nth-of-type(2){
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .intro-text{
+        font-size: 15px;
+        min-width: 300px;
+    }
+
+    .tech-outline{
+        font-size: 18px;
+    }
+}
+
+/* Desktop */
+
+@media(min-width: 769px) and (max-width: 1300px){
+    #navbar{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #navbar h2{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #navbar ul{
+        margin: 0;
+    }
+
+    #navbar ul li{
+        padding-left: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #navbar ul li a{
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+        padding-top :10px;
+    }
+
+    #title{
+        display: none;
+    }
+
+    .project-wrapper{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .project-container{
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    .project-container:nth-of-type(2){
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
